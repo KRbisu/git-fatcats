@@ -23,3 +23,9 @@ body {
     margin: 0;
 }
 
+.header, 
+.footer {
+    background-color: var(--frosted-mint);
+    padding: 8px;
+    width: 100%;
+} 
