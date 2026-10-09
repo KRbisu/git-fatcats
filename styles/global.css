@@ -1,1 +1,23 @@
+:root {
+    --primary-color: #ffffff;
+    --border-accent: #b79bfd;
+    --frosted-mint:  #d0e3cc;
+    --indigo-bloom:  #5e2fb6;
+    --onyx-color:    #0f1511;
+    --black-color:   #000000;  
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    height: 100vh; 
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
 
