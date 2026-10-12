@@ -16,7 +16,7 @@
     --primary-title-size: 2rem;
     --primary-undertext-size: 0,6rem;
 
-    --neu-radius: 50px; /* call for border radius*/
+    --neu-radius: 16px; /* call for border radius*/
     --neu-color: #e0e0e0; /* call for the color of the background */
     --neu-shadow:  -20px -20px 60px #bebebe,
                     20px 20px 60px #ffffff; /* use box-shadow to apply*/
