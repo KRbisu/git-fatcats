@@ -8,7 +8,7 @@
     --indigo-bloom:  #5e2fb6;
     --onyx-color:    #0f1511;
     --black-color:   #000000;
-    --neu-radius: 50px; /* call for border radius*/
+    --neu-radius: 16px; /* call for border radius*/
     --neu-color: #e0e0e0; /* call for the color of the background */
     --neu-shadow:  -20px -20px 60px #bebebe,
                     20px 20px 60px #ffffff; /* use box-shadow to apply*/
