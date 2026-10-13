@@ -1,14 +1,22 @@
+:root {
+    --code-snippet-color: #656c7633;
+}
+
 .article__container {
     display: flex;
     flex-direction: column;
     margin: auto;
-    max-width: 60%;
-}
-
-.article {
+    max-width: 80%;
+    padding: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     border-radius: var(--neu-radius);
     background-color: var(--neu-color);
     box-shadow: var(--neu-shadow);
+}
+
+.article {
+    margin: 20px;
 }
 
 .article__text {
@@ -18,5 +26,24 @@
 }
 
 .code__snippet {
+    margin: auto;
+    padding: 0 10px;
+    background-color: var(--code-snippet-color);
+    border-radius: var(--neu-radius);
+}
 
+.snippet__text {
+    
+}
+
+@media screen and (min-width: 800px) {
+    .article__container {
+        max-width: 60%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .article__container {
+        padding: 5px;
+    }
 }
