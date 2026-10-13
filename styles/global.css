@@ -79,6 +79,37 @@ body {
     padding: 0;
 }
 
+.footer {
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+    margin-top: auto;
+    padding: 12px 20px;
+}
+
+.footer__copyright {
+    font-size: 16px;
+    text-align: left;
+}
+
+.footer__link {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__logo {
+    display: block;
+    width: 55px;
+    height: auto;
+    align-content: center;
+}
+
 .navigation {
     display: flex;
     flex-wrap: wrap;
