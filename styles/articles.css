@@ -1,1 +1,22 @@
+.article__container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 60%;
+}
 
+.article {
+    border-radius: var(--neu-radius);
+    background-color: var(--neu-color);
+    box-shadow: var(--neu-shadow);
+}
+
+.article__text {
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: var(--secondary-font-size);
+}
+
+.code__snippet {
+
+}
