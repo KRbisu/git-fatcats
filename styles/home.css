@@ -15,6 +15,12 @@
     box-shadow: var(--neu-shadow);
     height: 150px;
     margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #6b7280;
+    cursor: pointer;
 }
 
 .card__title {
