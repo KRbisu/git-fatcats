@@ -44,6 +44,7 @@
 }
 
 .team__image {
+    border: 3px solid #b79bfd;
     width: 100px;
     height: 100px;
     flex-shrink: 0;
