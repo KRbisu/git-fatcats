@@ -1,5 +1,6 @@
 :root {
     --code-snippet-color: #656c7633;
+    --code-snippet-font: monospace, 'Source Code Pro', 'Consolas', 'Menlo', 'Liberation Mono', 'Courier New';
 }
 
 .grid {
@@ -52,9 +53,10 @@
     text-align: center;
     background-color: var(--code-snippet-color);
     color: var(--font-bold);
+    font-family: var(--code-snippet-font);
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     .article__container {
         max-width: 60%;
     }
@@ -67,5 +69,9 @@
 @media screen and (max-width: 800px) {
     .article__container {
         padding: 5px;
+    }
+
+    .code__snippet {
+        padding: 0 5px;
     }
 }
