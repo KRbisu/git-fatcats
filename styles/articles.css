@@ -33,7 +33,8 @@
 }
 
 .snippet__text {
-    
+    background-color: var(--code-snippet-color);
+    padding: 2px;
 }
 
 @media screen and (min-width: 800px) {
