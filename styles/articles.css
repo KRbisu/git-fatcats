@@ -2,6 +2,11 @@
     --code-snippet-color: #656c7633;
 }
 
+.grid {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+}
+
 .article__container {
     display: flex;
     flex-direction: column;
@@ -32,6 +37,7 @@
 }
 
 .code__snippet {
+    max-width: 90%;
     margin: auto;
     padding: 0 10px;
     background-color: var(--code-snippet-color);
@@ -39,6 +45,7 @@
 }
 
 .snippet__text {
+    text-align: center;
     background-color: var(--code-snippet-color);
     padding: 2px;
 }
@@ -46,6 +53,10 @@
 @media screen and (min-width: 800px) {
     .article__container {
         max-width: 60%;
+    }
+
+    .code__snippet {
+        max-width: 50%;
     }
 }
 
