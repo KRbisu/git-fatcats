@@ -28,6 +28,7 @@
     text-align: center;
     font-family: var(--primary-font);
     font-size: var(--secondary-font-size);
+    color: var(--font-color)
 }
 
 .article__title {
@@ -35,6 +36,7 @@
     font-family: var(--primary-font);
     font-size: var(--primary-title-size);
     font-weight: normal;
+    color: var(--font-color)
 }
 
 .code__snippet {
@@ -46,9 +48,10 @@
 }
 
 .snippet__text {
+    padding: 2px;
     text-align: center;
     background-color: var(--code-snippet-color);
-    padding: 2px;
+    color: var(--font-bold);
 }
 
 @media screen and (min-width: 800px) {
