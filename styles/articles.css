@@ -1,5 +1,6 @@
 :root {
     --code-snippet-color: #656c7633;
+    --code-snippet-font: monospace, 'Source Code Pro', 'Consolas', 'Menlo', 'Liberation Mono', 'Courier New';
 }
 
 .grid {
@@ -52,6 +53,7 @@
     text-align: center;
     background-color: var(--code-snippet-color);
     color: var(--font-bold);
+    font-family: var(--code-snippet-font);
 }
 
 @media screen and (min-width: 1000px) {
