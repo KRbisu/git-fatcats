@@ -34,6 +34,7 @@
     text-align: center;
     font-family: var(--primary-font);
     font-size: var(--primary-title-size);
+    font-weight: normal;
 }
 
 .code__snippet {
