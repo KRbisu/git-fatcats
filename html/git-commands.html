@@ -19,52 +19,53 @@
     <main class="main">
             <div class="article__container">
                 <div class="article">
-                    <h1 class="article__title">Git-branch - List, create or delete branches</h1>
+                    <h1 class="article__title">Git-commands</h1>
                 </div>
                 <div class="article">
-                    <p class="article__title">About branches</p>
-                    <p class="article__text">Branches let you develop features, fix bugs, or safely experiment with new ideas in a contained area of your repository.</p>
+                    <p class="article__title">Common git-commands</p>
                     <p class="article__text">
-                        You always create a branch from an existing branch. Typically, you might create a new branch from the default branch of your repository. 
-                        You can then work on this new branch in isolation from changes that other people are making to the repository.
+                        Here are some common everyday git-commands!
                     </p>
-                    <p class="article__text">
-                        When you create a repository with content on GitHub, GitHub creates the repository with a single branch. 
-                        This first branch in the repository is the default branch. By default the default branch name is 
-                        <strong class="snippet__text">main</strong></p>
-                </div>
-                <div class="article">
-                    <p class="article__title">Pull requests</p>
-                    <p class="article__text">
-                        A pull request compares the proposed changes on the head branch with the base branch. 
-                        When you create your pull request, you can change the base branch that you're comparing your changes against. 
-                        The Files changed tab shows what would change if the pull request merged.
-                    </p>
-                    <p class="article__text">
-                        Diff views help reviewers understand the changes without reading every commit.
-                        You can view a unified <strong class="snippet__text">diff, split diff, rich diff</strong>, or source <strong class="snippet__text">
-                        diff; ignore</strong> whitespace changes; or filter files to focus on the most relevant changes.
-                    </p>
-                </div>
-                <div class="article">
-                    <p class="article__title">git diff</p>
-                    <p class="article__text">The <strong class="snippet__text">git diff</strong> command supports two comparison methods. Pull requests on GitHub show a three-dot diff.</p>
                     <div class="code__snippet grid">
-                        <p class="article__text"><strong class="snippet__text">git diff A...B</strong></p>
-                        <p class="article__text">The most recent common commit of both branches (merge base) and the most recent version of the topic branch.</p>
-                        <p class="article__text"><strong class="snippet__text">git diff A..B</strong></p>
-                        <p class="article__text">The most recent state of the base branch (for example, main) and the most recent version of the topic branch.</p>
+                        <p class="article__text"><strong class="snippet__text">git init</strong></p>
+                        <p class="article__text">Initializes a brand-new local Git repository in your current folder.</p>
+                        <p class="article__text"><strong class="snippet__text">git clone</strong></p>
+                        <p class="article__text">Downloads an existing copy of a repository from a remote server (like GitHub).</p>
+                        <p class="article__text"><strong class="snippet__text">git status</strong></p>
+                        <p class="article__text">Shows the current state of your working directory (tracked, untracked, or modified files).</p>
+                        <p class="article__text"><strong class="snippet__text">git add</strong></p>
+                        <p class="article__text">Stages file changes, preparing them to be included in your next snapshot.</p>
+                        <p class="article__text"><strong class="snippet__text">git commit</strong></p>
+                        <p class="article__text">Saves your staged snapshot securely to the project history with a descriptive message.</p>
+                        <p class="article__text"><strong class="snippet__text">git log</strong></p>
+                        <p class="article__text">Displays a chronological list of all previous commits in the project history.</p>
+                        <p class="article__text"><strong class="snippet__text">git branch</strong></p>
+                        <p class="article__text">Lists, creates, or manages isolated contexts/versions of your project.</p>
+                        <p class="article__text"><strong class="snippet__text">git checkout</strong></p>
+                        <p class="article__text">Switches your working environment to a different branch.</p>
+                        <p class="article__text"><strong class="snippet__text">git merge</strong></p>
+                        <p class="article__text">Combines the history and changes of another branch into your active branch.</p>
+                        <p class="article__text"><strong class="snippet__text">git push</strong></p>
+                        <p class="article__text">Uploads your local commits to a remote reposity server so collaboratos can access them.</p>                                                                                                                                                                                                
                     </div>
-                </div>                
-                <div class="article">
-                    <p class="article__title">Merging often</p>
                     <p class="article__text">
-                        To avoid confusion, merge the base branch (for example, <strong class="snippet__text">main</strong>) into your topic branch frequently. 
-                        When you merge the base branch, the diffs shown by two-dot and 
-                        three-dot comparisons are the same. We recommend merging a pull request as soon as possible. 
-                        This encourages contributors to make pull requests smaller, which we recommend in general.
+                        Your project starts with <strong class="snippet__text">git init</strong> or <strong class="snippet__text">git clone</strong>. 
                     </p>
-                </div>                                                                                                
+                    <p class="article__text">
+                        <strong class="snippet__text">git status</strong> shows what changed, <strong class="snippet__text">git add</strong> 
+                        stages it, and <strong class="snippet__text">git commit</strong> saves a snapshot.
+                    </p>
+                    <p class="article__text">
+                        <strong class="snippet__text">git log</strong> shows past commits.
+                    </p>
+                    <p class="article__text">
+                        <strong class="snippet__text">git branch</strong> and <strong class="snippet__text">git checkout</strong> 
+                        let you work on separate versions(branches), then <strong class="snippet__text">git merge</strong> combines them.
+                    </p>
+                    <p class="article__text">
+                        <strong class="snippet__text">git push</strong> sends commits to a GitHub. A new GitHub repo starts with one default branch, usually main.
+                    </p>
+                </div>                                                                                                                
             </div>
         </main>
     <footer class="footer">   

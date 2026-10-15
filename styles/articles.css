@@ -54,7 +54,7 @@
     color: var(--font-bold);
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     .article__container {
         max-width: 60%;
     }
@@ -67,5 +67,9 @@
 @media screen and (max-width: 800px) {
     .article__container {
         padding: 5px;
+    }
+
+    .code__snippet {
+        padding: 0 5px;
     }
 }
