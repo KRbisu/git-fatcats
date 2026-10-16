@@ -64,6 +64,9 @@
     .code__snippet {
         max-width: 50%;
     }
+    .snippet__text {
+        line-height: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -73,5 +76,9 @@
 
     .code__snippet {
         padding: 0 5px;
+    }
+
+    .snippet__text {
+        line-height: 1.7rem;
     }
 }
